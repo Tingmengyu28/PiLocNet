@@ -1,0 +1,143 @@
+[INFO==>] setup params -- test:
+D: 41
+H: 96
+W: 96
+background: 10
+batch_size: 16
+cel0_mu: 1.0
+checkpoint_path: ./trained_model/2024-02-27-11-48-50-lr0.001-bs16-D41-Ep200-nT9000-w0_0_1-forwardKL_klnc_mse3d-1.0-1000.0-LocNet/ckpt_best_loss
+clear_dist: 1
+data_path: ./data_test/test45
+device: cuda
+extra_loss: forwardKL_klnc_mse3d
+gpu_number: 0
+initial_learning_rate: None
+klnc_a: 1000.0
+log_comment: 1e-5-D250
+lr_decay_factor: None
+lr_decay_per_epoch: None
+max_epoch: None
+model_use: LocNet
+name_time: None
+num_im: None
+pixel_size_axial: 1.048780487804878
+port: 16026
+postpro: False
+rank: 0
+resume: False
+save_epoch: None
+save_path: ./test_output/2024-02-27-11-48-50-w0_0_1-forwardKL_klnc_mse3d-1e-5-D250/test45
+scaling_factor: 800
+test_id_loc: None
+train_or_test: test
+upsampling_factor: 1
+weight: 0_0_1
+world_size: 1
+zmax: 20
+zmin: -20
+[INFO==>] Loss types: ['loss', 'forwardKL', 'klnc', 'mse3d']
+[INFO==>] Test 100 samples in ./data_test/test45
+[INFO==>] Label exists
+Test sample 0 Img1 found 432/45 emitters
+Test sample 1 Img10 found 396/45 emitters
+Test sample 2 Img100 found 413/45 emitters
+Test sample 3 Img11 found 396/45 emitters
+Test sample 4 Img12 found 367/45 emitters
+Test sample 5 Img13 found 441/45 emitters
+Test sample 6 Img14 found 341/45 emitters
+Test sample 7 Img15 found 386/45 emitters
+Test sample 8 Img16 found 390/45 emitters
+Test sample 9 Img17 found 392/45 emitters
+Test sample 10 Img18 found 439/45 emitters
+Test sample 11 Img19 found 441/45 emitters
+Test sample 12 Img2 found 415/45 emitters
+Test sample 13 Img20 found 397/45 emitters
+Test sample 14 Img21 found 431/45 emitters
+Test sample 15 Img22 found 344/45 emitters
+Test sample 16 Img23 found 373/45 emitters
+Test sample 17 Img24 found 394/45 emitters
+Test sample 18 Img25 found 424/45 emitters
+Test sample 19 Img26 found 360/45 emitters
+Test sample 20 Img27 found 374/45 emitters
+Test sample 21 Img28 found 408/45 emitters
+Test sample 22 Img29 found 418/45 emitters
+Test sample 23 Img3 found 418/45 emitters
+Test sample 24 Img30 found 381/45 emitters
+Test sample 25 Img31 found 417/45 emitters
+Test sample 26 Img32 found 372/45 emitters
+Test sample 27 Img33 found 440/45 emitters
+Test sample 28 Img34 found 435/45 emitters
+Test sample 29 Img35 found 439/45 emitters
+Test sample 30 Img36 found 465/45 emitters
+Test sample 31 Img37 found 394/45 emitters
+Test sample 32 Img38 found 365/45 emitters
+Test sample 33 Img39 found 359/45 emitters
+Test sample 34 Img4 found 397/45 emitters
+Test sample 35 Img40 found 381/45 emitters
+Test sample 36 Img41 found 381/45 emitters
+Test sample 37 Img42 found 367/45 emitters
+Test sample 38 Img43 found 392/45 emitters
+Test sample 39 Img44 found 505/45 emitters
+Test sample 40 Img45 found 459/45 emitters
+Test sample 41 Img46 found 483/45 emitters
+Test sample 42 Img47 found 382/45 emitters
+Test sample 43 Img48 found 431/45 emitters
+Test sample 44 Img49 found 433/45 emitters
+Test sample 45 Img5 found 423/45 emitters
+Test sample 46 Img50 found 416/45 emitters
+Test sample 47 Img51 found 454/45 emitters
+Test sample 48 Img52 found 373/45 emitters
+Test sample 49 Img53 found 374/45 emitters
+Test sample 50 Img54 found 373/45 emitters
+Test sample 51 Img55 found 461/45 emitters
+Test sample 52 Img56 found 365/45 emitters
+Test sample 53 Img57 found 397/45 emitters
+Test sample 54 Img58 found 405/45 emitters
+Test sample 55 Img59 found 415/45 emitters
+Test sample 56 Img6 found 363/45 emitters
+Test sample 57 Img60 found 411/45 emitters
+Test sample 58 Img61 found 474/45 emitters
+Test sample 59 Img62 found 405/45 emitters
+Test sample 60 Img63 found 327/45 emitters
+Test sample 61 Img64 found 347/45 emitters
+Test sample 62 Img65 found 370/45 emitters
+Test sample 63 Img66 found 449/45 emitters
+Test sample 64 Img67 found 437/45 emitters
+Test sample 65 Img68 found 378/45 emitters
+Test sample 66 Img69 found 453/45 emitters
+Test sample 67 Img7 found 371/45 emitters
+Test sample 68 Img70 found 428/45 emitters
+Test sample 69 Img71 found 426/45 emitters
+Test sample 70 Img72 found 442/45 emitters
+Test sample 71 Img73 found 357/45 emitters
+Test sample 72 Img74 found 469/45 emitters
+Test sample 73 Img75 found 424/45 emitters
+Test sample 74 Img76 found 377/45 emitters
+Test sample 75 Img77 found 482/45 emitters
+Test sample 76 Img78 found 404/45 emitters
+Test sample 77 Img79 found 343/45 emitters
+Test sample 78 Img8 found 430/45 emitters
+Test sample 79 Img80 found 420/45 emitters
+Test sample 80 Img81 found 395/45 emitters
+Test sample 81 Img82 found 428/45 emitters
+Test sample 82 Img83 found 370/45 emitters
+Test sample 83 Img84 found 405/45 emitters
+Test sample 84 Img85 found 407/45 emitters
+Test sample 85 Img86 found 429/45 emitters
+Test sample 86 Img87 found 407/45 emitters
+Test sample 87 Img88 found 420/45 emitters
+Test sample 88 Img89 found 376/45 emitters
+Test sample 89 Img9 found 461/45 emitters
+Test sample 90 Img90 found 358/45 emitters
+Test sample 91 Img91 found 383/45 emitters
+Test sample 92 Img92 found 365/45 emitters
+Test sample 93 Img93 found 408/45 emitters
+Test sample 94 Img94 found 367/45 emitters
+Test sample 95 Img95 found 389/45 emitters
+Test sample 96 Img96 found 365/45 emitters
+Test sample 97 Img97 found 418/45 emitters
+Test sample 98 Img98 found 399/45 emitters
+Test sample 99 Img99 found 404/45 emitters
+==================================================
+Analysis complete in 0h 0m 10s
+==================================================
